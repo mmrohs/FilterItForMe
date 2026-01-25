@@ -168,8 +168,8 @@ async function FilterDocument()
 			if (parentNode != null)
 				ClearAllChildNodes(parentNode);
 
-			// This node gets the "+++ filtered +++" text
-			node.data = "+++ filtered +++";
+			// This node gets hidden
+			node.style.display = 'none';
 		}
 
 		// +++ DEBUG +++
