@@ -1,32 +1,25 @@
-Product name: FilterIt  
+Product name: FilterItForMe  
 Author: M. Mrohs (mmrohs at protonmail.com)  
-Version: 1.0.8 (04.02.2024)  
+Version: 1.0.9 (25.01.2026)  
 Licence: Mozilla Public License Version 2.0  
 Website: https://github.com/mmrohs/FilterIt  
 
 
-FilterIt is a tiny add-on for the web browser Mozilla Firefox (Version 105 and newer)
+FilterItForMe is a tiny add-on for the web browser Mozilla Firefox (Version 142 and newer)
 
-FilterIt makes it possible to filter uninteresting topics and people from websites.
-The user can simply add terms to a filter list via context menu and next time the browser loads a webpage it replaces all sections containing one of these terms with the text "+++ filtered +++".
+The Internet is filled with trash and FilterItForMe helps you filter unwanted content from websites.
+Simply add terms to a filter list via context menu and next time the browser loads a webpage it removes all sections containing anything from the filter list.
 
-Important:
-If you know some JavaScript: 
-Feel free helping me with the development of FilterIt!
-
-
-Some ideas for the future
-- view of all the elements inside the filter list in a fancy new window
-- smarter filter algorithm (the current one is quite primitive)
-- new icon
-- configurable exceptions for websites
-- possibility to input filter terms without the context menu
-- browser icon that shows how many elements have been filtered
-- import/export of filter lists
-- configurable replacement string (default: '+++ filtered +++') 
+Warning: 
+This add-on is still in development. If you encounter bugs, please let me know!
 
 
 Version History
+
+1.0.9
+- renamed from 'FilterIt' to 'FilterItForMe'
+- Readme updated
+- data_collection_permissions added to manifest.json
 
 1.0.8
 - new context menu option to filter whole word matches only (enabled on default)

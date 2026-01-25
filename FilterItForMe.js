@@ -22,7 +22,7 @@ var bMatchWholeWordsOnly = true;
  */
 async function main()
 {
-	console.time('FilterIt');
+	console.time('FilterItForMe');
 
 	let bOK = await LoadSettings();
 	if (!bOK)
@@ -31,7 +31,7 @@ async function main()
 	await FilterDocument();
 
 	// Show execution time in console
-	console.timeEnd('FilterIt');
+	console.timeEnd('FilterItForMe');
 }
 
 /**
@@ -48,7 +48,7 @@ async function LoadSettings()
 
 	if (filterlist != null)
 	{
-		console.log("FilterIt - items in the filter list: " + filterlist.length);
+		console.log("FilterItForMe - items in the filter list: " + filterlist.length);
 	}
 
 	// Check if the user set any filters yet

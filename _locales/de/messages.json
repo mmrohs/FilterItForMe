@@ -1,13 +1,13 @@
 {
   "extensionName":
   {
-    "message": "FilterIt",
+    "message": "FilterItForMe",
     "description": "Name dieser Erweiterung"
   },
 
   "extensionDescription":
   {
-    "message": "Erweiterung für Mozilla Firefox die es einem erlaubt, Themen und Personen aus Webseiten heraus zu filtern",
+    "message": "Erweiterung für Mozilla Firefox die es einem erlaubt, Themen und Personen aus Webseiten zu filtern",
     "description": "Beschreibung dieser Erweiterung"
   },
 
