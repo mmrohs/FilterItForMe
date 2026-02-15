@@ -16,7 +16,6 @@ var filterlist = [];
 // Filter only whole word matches?
 var bMatchWholeWordsOnly = true;
 
-
 /**
  * The main algorithm of this extension
  */
@@ -33,6 +32,22 @@ async function main()
 	// Show execution time in console
 	console.timeEnd('FilterItForMe');
 }
+
+
+const observer = new MutationObserver((mutations) =>
+{
+	let bFilter = false;
+	mutations.forEach((mutation) => {
+		bFilter |= mutation.addedNodes.length > 0;
+	});
+	if (bFilter)
+		FilterDocument();
+});
+
+
+// Observe the entire document for changes
+observer.observe(document.body, { childList: true, subtree: true });
+
 
 /**
  * Retrieves the filter list and other options from local storage
@@ -169,7 +184,8 @@ async function FilterDocument()
 				ClearAllChildNodes(parentNode);
 
 			// This node gets hidden
-			node.style.display = 'none';
+			if (node.style != null)
+				node.style.display = 'none';
 		}
 
 		// +++ DEBUG +++
@@ -203,7 +219,8 @@ function NodeMatchesFilteredItems(nodeData)
 		filter = filterlist[i].toLowerCase();
 		if (nodeData.search(filter) != -1)
 		{
-			console.log("Simple Match: nodeData:" + nodeData + ", filter:" + filter);
+			// +++ DEBUG +++
+			//console.log("Simple Match: nodeData:" + nodeData + ", filter:" + filter);
 
 			//  if the whole word only option is active, then another check is necessary
 			if (bMatchWholeWordsOnly)

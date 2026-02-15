@@ -1,8 +1,8 @@
-Product name: FilterItForMe  
-Author: M. Mrohs (mmrohs at protonmail.com)  
-Version: 1.0.9 (25.01.2026)  
-Licence: Mozilla Public License Version 2.0  
-Website: https://github.com/mmrohs/FilterItForMe  
+Product name: FilterItForMe
+Author: M. Mrohs (mmrohs at protonmail.com)
+Version: 1.0.10 (15.02.2026)
+Licence: Mozilla Public License Version 2.0
+Website: https://github.com/mmrohs/FilterItForMe
 
 
 FilterItForMe is a tiny add-on for the web browser Mozilla Firefox (Version 142 and newer)
@@ -15,6 +15,9 @@ This add-on is still in development. If you encounter bugs, please let me know!
 
 
 Version History
+
+1.0.10
+- MutationObserver added
 
 1.0.9
 - renamed from 'FilterIt' to 'FilterItForMe'
