@@ -7,7 +7,7 @@
 
   "extensionDescription":
   {
-    "message": "Erweiterung für Mozilla Firefox die es einem erlaubt, Themen und Personen aus Webseiten zu filtern",
+    "message": "Erweiterung für Mozilla Firefox die es einem ermöglicht, Themen und Personen aus Webseiten zu filtern. Die zu filternden Begriffe einfach per Markierung und Kontextmenü hinzufügen und beim nächsten Laden einer Webseite werden betroffene Teile der Webseite nicht mehr angezeigt.",
     "description": "Beschreibung dieser Erweiterung"
   },
 

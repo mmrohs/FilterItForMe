@@ -1,0 +1,37 @@
+{
+  "extensionName":
+  {
+    "message": "FilterItForMe",
+    "description": "Nombre de esta extensión"
+  },
+
+  "extensionDescription":
+  {
+    "message": "Complemento para Mozilla Firefox que te permite filtrar personas y temas de las páginas web. Solo tienes que añadir términos a una lista de filtros a través del menú contextual y, la próxima vez que el navegador cargue una página web, eliminará todas las secciones que contengan algo de la lista de filtros.",
+    "description": "Descripción del complemento."
+  },
+
+  "menuItemAddToFilterList":
+  {
+    "message": "Añadir '%s' a la lista de filtros",
+    "description": "Añade el término seleccionado a la lista de filtros, para que la extensión pueda filtrarlo al cargar una página web."
+  },
+
+  "menuItemMatch":
+  {
+    "message": "Buscar solo palabras completas",
+    "description": "Si está habilitado, solo se filtrarán las coincidencias de palabras completas."
+  },
+
+  "menuItemShowFilterList":
+  {
+    "message": "Mostrar lista de filtros",
+    "description": "Muestra todos los elementos de la lista de filtros en la consola del navegador."
+  },
+
+  "menuItemClearFilterList":
+  {
+    "message": "Borrar lista de filtros",
+    "description": "Elimina todos los elementos de la lista de filtros."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "extensionName":
+  {
+    "message": "FilterItForMe",
+    "description": "Nom de cette extension"
+  },
+
+  "extensionDescription":
+  {
+    "message": "Extension pour Mozilla Firefox qui permet de filtrer des thèmes et des personnes sur des sites Web. Il suffit d'ajouter les termes à filtrer à l'aide d'un marqueur et du menu contextuel. Lors du prochain chargement d'une page Web, les parties concernées ne s'afficheront plus.",
+    "description": "Description de cette extension"
+  },
+
+  "menuItemAddToFilterList":
+  {
+    "message": "Ajouter l'expression '%s' à la liste des filtres",
+    "description": "Ajoute l'expression sélectionnée à la liste de filtres interne afin que l'expression soit filtrée lors du prochain chargement d'une page Web."
+  },
+
+  "menuItemMatch":
+  {
+    "message": "Rechercher uniquement des mots entiers",
+    "description": "Si cette option est activée, seuls les mots entiers sont pris en compte lors du filtrage."
+  },
+
+  "menuItemShowFilterList":
+  {
+    "message": "Afficher la liste des filtres",
+    "description": "Afficher toutes les entrées de la liste de filtres dans la console"
+  },
+
+  "menuItemClearFilterList":
+  {
+    "message": "Vider la liste des filtres",
+    "description": "Supprime toutes les entrées de la liste des filtres."
+  }
+}
