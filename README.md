@@ -1,6 +1,6 @@
 Product name: FilterItForMe
 Author: M. Mrohs (mmrohs at protonmail.com)
-Version: 1.0.10 (15.02.2026)
+Version: 1.0.11 (01.03.2026)
 Licence: Mozilla Public License Version 2.0
 Website: https://github.com/mmrohs/FilterItForMe
 
@@ -15,6 +15,9 @@ This add-on is still in development. If you encounter bugs, please let me know!
 
 
 Version History
+
+1.0.11
+- spanish and french languages added
 
 1.0.10
 - MutationObserver added
